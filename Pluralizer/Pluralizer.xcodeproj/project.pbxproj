@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D9B692018FB64E500DFE038 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B691F18FB64E500DFE038 /* Cocoa.framework */; };
+		4D9B692A18FB64E500DFE038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B692818FB64E500DFE038 /* InfoPlist.strings */; };
+		4D9B692E18FB64E500DFE038 /* Pluralizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B692D18FB64E500DFE038 /* Pluralizer.m */; };
+		4D9B693518FB64E500DFE038 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B693418FB64E500DFE038 /* XCTest.framework */; };
+		4D9B693618FB64E500DFE038 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B691F18FB64E500DFE038 /* Cocoa.framework */; };
+		4D9B693918FB64E500DFE038 /* Pluralizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B691C18FB64E500DFE038 /* Pluralizer.framework */; };
+		4D9B693F18FB64E500DFE038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B693D18FB64E500DFE038 /* InfoPlist.strings */; };
+		4D9B694118FB64E500DFE038 /* PluralizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B694018FB64E500DFE038 /* PluralizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D9B693718FB64E500DFE038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D9B691318FB64E500DFE038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D9B691B18FB64E500DFE038;
+			remoteInfo = Pluralizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D9B691C18FB64E500DFE038 /* Pluralizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pluralizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B691F18FB64E500DFE038 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4D9B692218FB64E500DFE038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D9B692318FB64E500DFE038 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D9B692418FB64E500DFE038 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4D9B692718FB64E500DFE038 /* Pluralizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pluralizer-Info.plist"; sourceTree = "<group>"; };
+		4D9B692918FB64E500DFE038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D9B692B18FB64E500DFE038 /* Pluralizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pluralizer-Prefix.pch"; sourceTree = "<group>"; };
+		4D9B692C18FB64E500DFE038 /* Pluralizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pluralizer.h; sourceTree = "<group>"; };
+		4D9B692D18FB64E500DFE038 /* Pluralizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pluralizer.m; sourceTree = "<group>"; };
+		4D9B693318FB64E500DFE038 /* PluralizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluralizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9B693418FB64E500DFE038 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D9B693C18FB64E500DFE038 /* PluralizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PluralizerTests-Info.plist"; sourceTree = "<group>"; };
+		4D9B693E18FB64E500DFE038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D9B694018FB64E500DFE038 /* PluralizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluralizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D9B691818FB64E500DFE038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B692018FB64E500DFE038 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9B693018FB64E500DFE038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B693618FB64E500DFE038 /* Cocoa.framework in Frameworks */,
+				4D9B693518FB64E500DFE038 /* XCTest.framework in Frameworks */,
+				4D9B693918FB64E500DFE038 /* Pluralizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D9B691218FB64E500DFE038 = {
+			isa = PBXGroup;
+			children = (
+				4D9B692518FB64E500DFE038 /* Pluralizer */,
+				4D9B693A18FB64E500DFE038 /* PluralizerTests */,
+				4D9B691E18FB64E500DFE038 /* Frameworks */,
+				4D9B691D18FB64E500DFE038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D9B691D18FB64E500DFE038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B691C18FB64E500DFE038 /* Pluralizer.framework */,
+				4D9B693318FB64E500DFE038 /* PluralizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9B691E18FB64E500DFE038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B691F18FB64E500DFE038 /* Cocoa.framework */,
+				4D9B693418FB64E500DFE038 /* XCTest.framework */,
+				4D9B692118FB64E500DFE038 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D9B692118FB64E500DFE038 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B692218FB64E500DFE038 /* Foundation.framework */,
+				4D9B692318FB64E500DFE038 /* CoreData.framework */,
+				4D9B692418FB64E500DFE038 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4D9B692518FB64E500DFE038 /* Pluralizer */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B692C18FB64E500DFE038 /* Pluralizer.h */,
+				4D9B692D18FB64E500DFE038 /* Pluralizer.m */,
+				4D9B692618FB64E500DFE038 /* Supporting Files */,
+			);
+			path = Pluralizer;
+			sourceTree = "<group>";
+		};
+		4D9B692618FB64E500DFE038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B692718FB64E500DFE038 /* Pluralizer-Info.plist */,
+				4D9B692818FB64E500DFE038 /* InfoPlist.strings */,
+				4D9B692B18FB64E500DFE038 /* Pluralizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D9B693A18FB64E500DFE038 /* PluralizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B694018FB64E500DFE038 /* PluralizerTests.m */,
+				4D9B693B18FB64E500DFE038 /* Supporting Files */,
+			);
+			path = PluralizerTests;
+			sourceTree = "<group>";
+		};
+		4D9B693B18FB64E500DFE038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B693C18FB64E500DFE038 /* PluralizerTests-Info.plist */,
+				4D9B693D18FB64E500DFE038 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D9B691918FB64E500DFE038 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D9B691B18FB64E500DFE038 /* Pluralizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9B694418FB64E500DFE038 /* Build configuration list for PBXNativeTarget "Pluralizer" */;
+			buildPhases = (
+				4D9B691718FB64E500DFE038 /* Sources */,
+				4D9B691818FB64E500DFE038 /* Frameworks */,
+				4D9B691918FB64E500DFE038 /* Headers */,
+				4D9B691A18FB64E500DFE038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pluralizer;
+			productName = Pluralizer;
+			productReference = 4D9B691C18FB64E500DFE038 /* Pluralizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D9B693218FB64E500DFE038 /* PluralizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9B694718FB64E500DFE038 /* Build configuration list for PBXNativeTarget "PluralizerTests" */;
+			buildPhases = (
+				4D9B692F18FB64E500DFE038 /* Sources */,
+				4D9B693018FB64E500DFE038 /* Frameworks */,
+				4D9B693118FB64E500DFE038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D9B693818FB64E500DFE038 /* PBXTargetDependency */,
+			);
+			name = PluralizerTests;
+			productName = PluralizerTests;
+			productReference = 4D9B693318FB64E500DFE038 /* PluralizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D9B691318FB64E500DFE038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Elliot Chance";
+				TargetAttributes = {
+					4D9B693218FB64E500DFE038 = {
+						TestTargetID = 4D9B691B18FB64E500DFE038;
+					};
+				};
+			};
+			buildConfigurationList = 4D9B691618FB64E500DFE038 /* Build configuration list for PBXProject "Pluralizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D9B691218FB64E500DFE038;
+			productRefGroup = 4D9B691D18FB64E500DFE038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D9B691B18FB64E500DFE038 /* Pluralizer */,
+				4D9B693218FB64E500DFE038 /* PluralizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D9B691A18FB64E500DFE038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B692A18FB64E500DFE038 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9B693118FB64E500DFE038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B693F18FB64E500DFE038 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9B691718FB64E500DFE038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B692E18FB64E500DFE038 /* Pluralizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9B692F18FB64E500DFE038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B694118FB64E500DFE038 /* PluralizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D9B693818FB64E500DFE038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D9B691B18FB64E500DFE038 /* Pluralizer */;
+			targetProxy = 4D9B693718FB64E500DFE038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D9B692818FB64E500DFE038 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9B692918FB64E500DFE038 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D9B693D18FB64E500DFE038 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9B693E18FB64E500DFE038 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D9B694218FB64E500DFE038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D9B694318FB64E500DFE038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D9B694518FB64E500DFE038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pluralizer/Pluralizer-Prefix.pch";
+				INFOPLIST_FILE = "Pluralizer/Pluralizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4D9B694618FB64E500DFE038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pluralizer/Pluralizer-Prefix.pch";
+				INFOPLIST_FILE = "Pluralizer/Pluralizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4D9B694818FB64E500DFE038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pluralizer.framework/Versions/A/Pluralizer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pluralizer/Pluralizer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PluralizerTests/PluralizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D9B694918FB64E500DFE038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pluralizer.framework/Versions/A/Pluralizer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pluralizer/Pluralizer-Prefix.pch";
+				INFOPLIST_FILE = "PluralizerTests/PluralizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D9B691618FB64E500DFE038 /* Build configuration list for PBXProject "Pluralizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9B694218FB64E500DFE038 /* Debug */,
+				4D9B694318FB64E500DFE038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9B694418FB64E500DFE038 /* Build configuration list for PBXNativeTarget "Pluralizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9B694518FB64E500DFE038 /* Debug */,
+				4D9B694618FB64E500DFE038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D9B694718FB64E500DFE038 /* Build configuration list for PBXNativeTarget "PluralizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9B694818FB64E500DFE038 /* Debug */,
+				4D9B694918FB64E500DFE038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D9B691318FB64E500DFE038 /* Project object */;
+}
