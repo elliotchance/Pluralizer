@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D860C3C18FB6C0A00D913D9 /* Pluralizer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pluralizer.podspec; sourceTree = "<group>"; };
 		4D9B691C18FB64E500DFE038 /* Pluralizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pluralizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9B691F18FB64E500DFE038 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4D9B692218FB64E500DFE038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +71,7 @@
 		4D9B691218FB64E500DFE038 = {
 			isa = PBXGroup;
 			children = (
+				4D860C3C18FB6C0A00D913D9 /* Pluralizer.podspec */,
 				4D9B692518FB64E500DFE038 /* Pluralizer */,
 				4D9B693A18FB64E500DFE038 /* PluralizerTests */,
 				4D9B691E18FB64E500DFE038 /* Frameworks */,
@@ -448,6 +450,7 @@
 				4D9B694618FB64E500DFE038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9B694718FB64E500DFE038 /* Build configuration list for PBXNativeTarget "PluralizerTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +459,7 @@
 				4D9B694918FB64E500DFE038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
