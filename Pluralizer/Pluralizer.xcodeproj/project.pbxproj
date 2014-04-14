@@ -14,7 +14,7 @@
 		4D9B693618FB64E500DFE038 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B691F18FB64E500DFE038 /* Cocoa.framework */; };
 		4D9B693918FB64E500DFE038 /* Pluralizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B691C18FB64E500DFE038 /* Pluralizer.framework */; };
 		4D9B693F18FB64E500DFE038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B693D18FB64E500DFE038 /* InfoPlist.strings */; };
-		4D9B694118FB64E500DFE038 /* PluralizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B694018FB64E500DFE038 /* PluralizerTests.m */; };
+		4D9B694118FB64E500DFE038 /* TestPluralizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B694018FB64E500DFE038 /* TestPluralizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,7 @@
 		4D9B693418FB64E500DFE038 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4D9B693C18FB64E500DFE038 /* PluralizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PluralizerTests-Info.plist"; sourceTree = "<group>"; };
 		4D9B693E18FB64E500DFE038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4D9B694018FB64E500DFE038 /* PluralizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluralizerTests.m; sourceTree = "<group>"; };
+		4D9B694018FB64E500DFE038 /* TestPluralizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPluralizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 		4D9B693A18FB64E500DFE038 /* PluralizerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D9B694018FB64E500DFE038 /* PluralizerTests.m */,
+				4D9B694018FB64E500DFE038 /* TestPluralizer.m */,
 				4D9B693B18FB64E500DFE038 /* Supporting Files */,
 			);
 			path = PluralizerTests;
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9B694118FB64E500DFE038 /* PluralizerTests.m in Sources */,
+				4D9B694118FB64E500DFE038 /* TestPluralizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

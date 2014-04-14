@@ -10,4 +10,6 @@
 
 @interface Pluralizer : NSObject
 
++ (NSString *)pluralize:(NSInteger)value word:(NSString *)word;
+
 @end

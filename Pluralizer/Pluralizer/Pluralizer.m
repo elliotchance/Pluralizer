@@ -10,4 +10,12 @@
 
 @implementation Pluralizer
 
++ (NSString *)pluralize:(NSInteger)value word:(NSString *)word
+{
+    if(value == 1) {
+        return [NSString stringWithFormat:@"1 %@", word];
+    }
+    return [NSString stringWithFormat:@"%ld %@s", (long)value, word];
+}
+
 @end
